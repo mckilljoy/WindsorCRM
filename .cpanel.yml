@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home3/mckilljo/public_html/WindsorCRM
+    - /bin/cp index.html $DEPLOYPATH
+
